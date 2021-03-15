@@ -82,11 +82,12 @@ namespace _8CGM
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(473, 65);
+            this.label2.Location = new System.Drawing.Point(473, 53);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(33, 13);
             this.label2.TabIndex = 12;
             this.label2.Text = "Shirts";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // button13
             // 

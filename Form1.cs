@@ -13,8 +13,6 @@ namespace _8CGM
 {
     public partial class Form1 : Form
     {
-        List<Panel> listPanel = new List<Panel>();
-        int index;
         Thread th;
         public Form1()
         {
@@ -56,6 +54,16 @@ namespace _8CGM
         private void opennewform(object obj)
         {
             Application.Run(new Form2());     
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void panel2_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }
